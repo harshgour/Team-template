@@ -1,0 +1,120 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+#team{
+    height: auto;
+}
+.container{
+    position: relative;
+}
+.circle{
+    min-height: 100px;
+    height: 250px;
+    min-width: 100px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+}
+.image{
+    height: 100%;
+}
+.circle .info{
+    display: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.circle:nth-child(odd){
+    background-color: blue;
+}
+.c-1{
+    height: 150px;
+    width: 150px;
+}
+.c-2{
+    height: 110px;
+    width: 110px;
+}
+.c-3{
+    height: 170px;
+    width: 170px;
+}
+.c-5{
+    height: 210px;
+    width: 210px;
+}
+.c-4{
+    background-color: green;
+    height: 110px;
+    width: 110px;
+}
+.c-6{
+    height: 110px;
+    width: 110px;
+}
+.c-7{
+    height: 180px;
+    width: 180px;
+}
+.c-9{
+    height: 150px;
+    width: 150px;
+}
+.c-11{
+    height: 150px;
+    width: 150px;
+}
+.c-12{
+    height: 110px;
+    width: 110px;
+}
+.c-13{
+    height: 150px;
+    width: 150px;
+}
+.c-14{
+    height: 140px;
+    width: 140px;
+}
+.c-16{
+    height: 110px;
+    width: 110px;
+}
+.c-17{
+    height: 110px;
+    width: 110px;
+}
+.c-18{
+    height: 150px;
+    width: 150px;
+}
+.c-22{
+    height: 140px;
+    width: 140px;
+}
+.c-25{
+    height: 140px;
+    width: 140px;
+}
+.c-27{
+    height: 140px;
+    width: 140px;
+}
+.show-image{
+    height: 250px;
+    width: 250px;
+}
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .col-lg-4{
+      flex: 0 0 auto;
+      max-width: 100%;
+      padding: 0;
+  }
